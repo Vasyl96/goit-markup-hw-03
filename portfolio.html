@@ -6,36 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!-- Header section -->
     <header class="header">
-        <nav class="header-nav">
-            <a class="header-logo" href="https://vasyl96.github.io/goit-markup-hw-02/"><span
-                    class="logo-text">Web</span>Studio</a>
-            <ul class="header-list">
-                <li class="header-item">
-                    <a class="header-link" href="https://vasyl96.github.io/goit-markup-hw-02/">Студия</a>
+        <div class="container-header">
+            <nav class="header-nav">
+                <a class="header-logo" href="https://vasyl96.github.io/goit-markup-hw-02/"><span
+                        class="logo-text">Web</span>Studio</a>
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a class="header-link" href="https://vasyl96.github.io/goit-markup-hw-02/">Студия</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link current" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="contact-list">
+                <li class="contact-item"><a class="contact-email"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li class="header-item">
-                    <a class="header-link current" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="header-item">
-                    <a class="header-link" href="#">Контакты</a>
-                </li>
+                <li class="contact-item"><a class="contact-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contact-list">
-            <li class="contact-item"><a class="contact-email"
-                    href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
-            </li>
-            <li class="contact-item"><a class="contact-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <!-- Main section -->
     <main class="main">
@@ -135,17 +139,19 @@
     </main>
     <!-- Footer section-->
     <footer class="footer">
-        <a class="footer-logo" href="https://vasyl96.github.io/goit-markup-hw-02/"><span
-                class="logo-text">Web</span>Studio</a>
-        <address class="footer-address">
-            <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="footer-list">
-                <li class="footer-item"><a class="footer-email"
-                        href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a>
-                </li>
-                <li class="footer-item"><a class="footer-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container-footer">
+            <a class="footer-logo" href="https://vasyl96.github.io/goit-markup-hw-02/"><span
+                    class="logo-text">Web</span>Studio</a>
+            <address class="footer-address">
+                <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="footer-list">
+                    <li class="footer-item"><a class="footer-email"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="footer-item"><a class="footer-phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 
