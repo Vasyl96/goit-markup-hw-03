@@ -324,7 +324,7 @@ body {
 
 .portfolio-item {
   width: calc((100% - 60px) / 3);
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding: 0;
 }
 
@@ -343,6 +343,8 @@ body {
 }
 
 .box-portfolio-item {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
   margin: 0;
   padding: 20px 24px;
 }
