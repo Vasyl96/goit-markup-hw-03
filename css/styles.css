@@ -23,7 +23,22 @@
   --accent-filter-btn-bg-cl: #2196f3;
 
   /* others */
+  --indent: 30px;
+  --items: 3;
 }
+
+/* Card set start */
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--indent);
+}
+
+.card-set-items {
+  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+
+/* Card set end */
 
 body {
   font-family: var(--main-fons);
@@ -39,8 +54,7 @@ body {
 }
 
 /* Dispalay flex box */
-.box-header,
-.box-footer {
+.box-header {
   display: flex;
 }
 
@@ -336,7 +350,6 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  margin: 0;
   padding: 20px 24px;
 }
 
